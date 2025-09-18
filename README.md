@@ -1,4 +1,3 @@
-````markdown
 # QnA System
 
 A simple console-based Q&A system built in **C++** using CSV files for storage.  
@@ -15,28 +14,17 @@ This project allows users to sign up, login, ask questions, view received questi
 1. Make sure you have a C++ compiler installed (e.g., g++).
    
 2. Clone this repository:
-   ```bash
    git clone https://github.com/your-username/QnA-System.git
-````
 
 3. Navigate to the project folder:
-
-   ```bash
    cd QnA-System
-   ```
 
 4. Compile the code:
-
-   ```bash
    g++ main.cpp -o QnA
-   ```
 
 5. Run the program:
-
-   ```bash
    ./QnA   # on Linux/Mac
    QnA.exe # on Windows
-   ```
 
 ## Notes
 
