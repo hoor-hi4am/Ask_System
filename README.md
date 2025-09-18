@@ -1,30 +1,34 @@
+````markdown
 # QnA System
+
+[![C++](https://img.shields.io/badge/Language-C++-blue)](https://isocpp.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/your-username/QnA-System)
 
 A simple console-based Q&A system built in **C++** using CSV files for storage.  
 This project allows users to sign up, login, ask questions, view received questions, and answer them.
 
 ## Features
-- User registration and login
-- Ask questions to other users
-- View received questions
-- Answer questions
-- Sign out
+- ✅ User registration and login
+- ✅ Ask questions to other users
+- ✅ View received questions
+- ✅ Answer questions
+- ✅ Sign out
 
 ## How to Run
-1. Make sure you have a C++ compiler installed (e.g., g++).
-   
-2. Clone this repository:
-   git clone https://github.com/your-username/QnA-System.git
+```bash
+# Clone the repository
+git clone https://github.com/your-username/QnA-System.git
 
-3. Navigate to the project folder:
-   cd QnA-System
+# Navigate to the project folder
+cd QnA-System
 
-4. Compile the code:
-   g++ main.cpp -o QnA
+# Compile the code
+g++ main.cpp -o QnA
 
-5. Run the program:
-   ./QnA   # on Linux/Mac
-   QnA.exe # on Windows
+# Run the program
+./QnA   # on Linux/Mac
+QnA.exe # on Windows
+````
 
 ## Notes
 
@@ -35,3 +39,4 @@ This project allows users to sign up, login, ask questions, view received questi
 ## Author
 
 **Hoor Hesham** – Computer Science student | Competitive Programming Enthusiast | Learning Flutter & UI/UX
+```
