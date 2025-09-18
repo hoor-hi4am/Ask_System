@@ -35,4 +35,4 @@ QnA.exe # on Windows
 
 ## Author
 
-**Hoor Hesham** – Computer Science student | Competitive Programming Enthusiast | Learning Flutter & UI/UX
+**Hoor Hisham** – Computer Science student | Competitive Programming Enthusiast | Learning Flutter & UI/UX
