@@ -1,0 +1,2 @@
+questionId,fromUserId,toUserId,questionText,answer
+1,3,1,How can I use built_in functions in c++?,In C++, built-in functions (often called standard library functions) are functions that are already written and included in C++ libraries. You don't write their code, you just call them.
