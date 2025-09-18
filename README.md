@@ -1,9 +1,6 @@
 ````markdown
 # QnA System
 
-[![C++](https://img.shields.io/badge/Language-C++-blue)](https://isocpp.org/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/your-username/QnA-System)
-
 A simple console-based Q&A system built in **C++** using CSV files for storage.  
 This project allows users to sign up, login, ask questions, view received questions, and answer them.
 
@@ -39,4 +36,3 @@ QnA.exe # on Windows
 ## Author
 
 **Hoor Hesham** – Computer Science student | Competitive Programming Enthusiast | Learning Flutter & UI/UX
-```
