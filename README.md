@@ -1,38 +1,106 @@
-````markdown
 # QnA System
 
-A simple console-based Q&A system built in **C++** using CSV files for storage.  
-This project allows users to sign up, login, ask questions, view received questions, and answer them.
+A simple **console-based Question & Answer System** developed in **C++**.  
+The application uses **CSV files** as a lightweight database to manage users and questions without requiring an external database system.
+
+---
 
 ## Features
-- ✅ User registration and login
-- ✅ Ask questions to other users
-- ✅ View received questions
-- ✅ Answer questions
-- ✅ Sign out
 
-## How to Run
+- 🔐 User registration
+- 🔑 User login & authentication
+- ❓ Ask questions to other users
+- 📥 View received questions
+- 💬 Answer pending questions
+- 🚪 Sign out
+
+---
+
+## Project Structure
+
+```
+QnA-System/
+│── main.cpp
+│── users.csv
+│── questions.csv
+└── README.md
+```
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
 ```bash
-# Clone the repository
 git clone https://github.com/your-username/QnA-System.git
-
-# Navigate to the project folder
 cd QnA-System
+```
 
-# Compile the code
+### 2. Compile the project
+
+Using **g++**:
+
+```bash
 g++ main.cpp -o QnA
+```
 
-# Run the program
-./QnA   # on Linux/Mac
-QnA.exe # on Windows
-````
+### 3. Run the application
 
-## Notes
+**Linux / macOS**
 
-* Users and questions are stored in `users.csv` and `questions.csv`.
-* Currently, passwords are stored in plain text.
-* Program exits completely when signing out.
+```bash
+./QnA
+```
+
+**Windows**
+
+```bash
+QnA.exe
+```
+
+---
+
+## Data Storage
+
+The system stores data using CSV files:
+
+- `users.csv` → Stores registered users.
+- `questions.csv` → Stores questions and answers.
+
+---
+
+## ⚠️ Current Limitations
+
+- Passwords are stored as plain text (for learning purposes only).
+- Data is stored locally using CSV files.
+- The application exits after the user signs out.
+- No password hashing or encryption is implemented.
+
+---
+
+## 🛠 Technologies Used
+
+- C++
+- Object-Oriented Programming (OOP)
+- File Handling
+- CSV Storage
+
+---
+
+## 📌 Future Improvements
+
+- Encrypt user passwords.
+- Delete or edit questions.
+- Search for users.
+- Admin dashboard.
+- Replace CSV files with SQLite or MySQL.
+- Improve input validation and error handling.
+
+---
 
 ## Author
 
-**Hoor Hisham** – Computer Science student | Competitive Programming Enthusiast | Learning Android
+**Hoor Hisham**
+
+Computer Science Student • Competitive Programming Enthusiast • Android Developer
